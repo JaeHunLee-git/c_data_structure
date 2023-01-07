@@ -13,8 +13,8 @@ int main()
     int com1[27] = { 0 };
     int com2[27] = { 0 };
     int x = 0;
-    scanf("%s", word1, 20);
-    scanf("%s", word2, 20);
+    scanf("%s", word1);
+    scanf("%s", word2);
     for (int i = 0; i < strlen(word1); i++)
     {
         com1[word1[i] - 'a'] += 1;
