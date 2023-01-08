@@ -18,7 +18,7 @@ int main()
 
     FILE* fp = fopen("harry.txt", "r");
     int cnt = 0;
-    for (; !feof(fp); cnt++)
+    for (cnt; !feof(fp); cnt++)
     {
         word = (char*)malloc(sizeof(char) * BUF_SIZE);
         fscanf(fp, "%s", word);
